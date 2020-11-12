@@ -1,0 +1,55 @@
+.dial {
+height: 400px;
+width: 400px;
+}
+.timer button {
+border: none;
+font-size: 50px;
+cursor: pointer;
+color: white;
+background-color: transparent;
+}
+.timer button:focus {
+outline: none;
+}
+
+.timer input:focus {
+outline: none;
+}
+.timer input {
+display: block;
+border: none;
+width: 310px;
+color: white;
+background-color: #ff0066;
+font-size: 90px;
+text-align: center;
+}
+* {
+font: inherit;
+}
+body {
+display: flex;
+justify-content: center;
+align-items: center;
+height: 600px;
+background-color: #ff0066;
+font-family: 'Segoe UI', 'Fira Sans',
+    'Droid Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+.controls {
+position: absolute;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+.timer {
+position: relative;
+display: inline-block;
+}
+
