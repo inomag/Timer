@@ -20,8 +20,15 @@ class Timer{
         clearInterval(this.timer);
     }
     tick=()=>{
-        const timeLeft = parseFloat(this.durationInput.value);
-        this.durationInput.value = timeLeft-1;
+        this.displayTime = this.timeRemaining-1;
+    }
+
+    get timeRemaining(){
+        return parseFloat(this.durationInput.value);
+    }
+    
+    set displayTime (time){
+        this.durationInput.value = time;
     }
 }
 
