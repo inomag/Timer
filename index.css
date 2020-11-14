@@ -32,7 +32,7 @@ body {
 display: flex;
 justify-content: center;
 align-items: center;
-height: 600px;
+height: 100vh;
 background-color: #ff0066;
 font-family: 'Segoe UI', 'Fira Sans',
     'Droid Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
